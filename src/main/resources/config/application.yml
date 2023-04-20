@@ -1,0 +1,18 @@
+# Spring Boot configuration
+spring:
+  profiles:
+    active: development
+  # Security configuration
+  security:
+    user:
+      name: user
+      password: user
+# Logger configuration
+logging:
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+  level:
+    org.springframework: info
+# Server configuration
+server:
+  port: 8081 #set your port
